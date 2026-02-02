@@ -4,10 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ManaApps</title>
+    <title>ManaApps | Empowering Rural India with Simple IT Solutions</title>
     <link rel="icon" type="image/png" href="Logo.png">
     <meta name="description"
-        content="ManaApps is an IT solutions provider developing simple, accessible apps for everyone, empowering rural areas with digital technology.">
+        content="ManaApps is a mission-driven IT solutions provider developing simple, accessible apps for everyone. We empower rural communities with user-friendly digital technology and custom app development.">
+    <meta name="keywords"
+        content="ManaApps, rural IT solutions, simple apps, digital empowerment India, custom app development, accessible technology, rural upliftment">
+    <link rel="canonical" href="https://manaapps.in/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://manaapps.in/">
+    <meta property="og:title" content="ManaApps | Simple Apps for Everyone, Everywhere">
+    <meta property="og:description"
+        content="Empowering rural communities with simple, accessible, and powerful IT solutions.">
+    <meta property="og:image" content="https://manaapps.in/ManaApps.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://manaapps.in/">
+    <meta property="twitter:title" content="ManaApps | Simple Apps for Everyone, Everywhere">
+    <meta property="twitter:description"
+        content="Empowering rural communities with simple, accessible, and powerful IT solutions.">
+    <meta property="twitter:image" content="https://manaapps.in/ManaApps.png">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ManaApps",
+      "url": "https://manaapps.in/",
+      "logo": "https://manaapps.in/Logo.png",
+      "description": "IT solutions provider developing simple, accessible apps for everyone, empowering rural areas with digital technology.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "addressCountry": "India"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9676490226",
+        "contactType": "customer service",
+        "email": "hello@manaapps.in"
+      },
+      "sameAs": [
+        "https://linkedin.com/company/manaapps"
+      ]
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -34,7 +80,7 @@
                 <li><a href="#impact">Impact</a></li>
                 <li><a href="#contact" class="btn btn-primary">Get Started</a></li>
             </ul>
-            <div class="menu-toggle">
+            <div class="menu-toggle" id="mobile-menu-toggle" aria-label="Open navigation menu">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -224,13 +270,19 @@
         <div class="container">
             <div class="footer-bottom">
                 <div class="footer-logo">
-                    <img src="ManaApps.png" alt="ManaApps" style="height: 80px; width: auto;">
-
+                    <img src="Logo.png" alt="ManaApps Icon" style="height: 55px; width: auto;">
+                    <div style="display: flex; flex-direction: column; justify-content: center;">
+                        <span
+                            style="font-size: 1.6rem; font-weight: 700; font-family: 'Outfit', sans-serif; color: var(--text-dark); line-height: 1.1;">ManaApps</span>
+                        <span
+                            style="font-size: 0.85rem; color: var(--text-light); font-weight: 500; letter-spacing: 0.5px;">Simple
+                            Apps for Everyone, Everywhere</span>
+                    </div>
                 </div>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
                 <!-- Footer Section in index.html -->
                 <!-- <div class="social-links">
